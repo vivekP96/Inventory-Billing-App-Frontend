@@ -40,7 +40,7 @@ function ViewOrder() {
       const tempArr = item.filteredArr;
       if (tempArr && tempArr.length > 0) {
         tempArr.map((rec, i) => {
-          return resArr.push(
+          resArr.push(
             <div key={i}>
               <Card style={{ width: "18rem" }}>
                 <Card.Body>
