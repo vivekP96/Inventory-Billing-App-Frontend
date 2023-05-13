@@ -1,0 +1,82 @@
+.App{
+  background:#d6eef8;
+  display: grid;
+     grid-template-columns: 20% 80%; 
+    height: 100vh;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+  
+}
+.app-login{
+  height: 100vh;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background:#d6eef8;
+}
+
+/* .sidebar{
+  height: 100%;
+  width:250px;
+  background: linear-gradient(200deg,blue,white,skyblue)
+}
+.sidebarList{
+height:auto;
+width: 100%;
+padding: 0;
+
+}
+
+.sidebarList .row{
+width:100%;
+height: 60px;
+
+list-style-type: none;
+margin: 0%;
+display: flex;
+flex-direction: row;
+justify-content:center ;
+align-items: center;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.sidebarList .row:hover{
+  background-color: rgb(170, 168, 230);
+  color: black;
+  
+  transition: 0.5s ease-in;
+  cursor:pointer;
+}
+.sidebarList #active{
+  background-color: rgb(170, 168, 230);
+}
+.row #icon{
+  flex:30%;
+ display: grid;
+ place-items: center;
+}
+.row #title{
+  flex:70%;
+}
+.login-layout{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+ background: linear-gradient(blue,white,skyblue);
+  flex-direction: row;
+  border: #ffffff px solid;
+  border-radius: 10px;
+}
+.Login-form{
+  background-color: white;
+  border-radius:10px;
+  padding: 20px;
+  
+}
+.login{
+  width:100px;
+  background: linear-gradient(skyblue,white);
+  color: black !important;
+  font-weight: bold;
+} */
