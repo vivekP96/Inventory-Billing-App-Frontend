@@ -18,7 +18,7 @@ function Bill() {
   const [count, setCount] = useState(1);
   const [orderId, setOrderId] = useState("");
   const [submit, setSubmit] = useState({ display: "none" });
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   const getUrl =
     "https://inventory-billing-application.onrender.com/api/getstock";
   const createorderUrl =
@@ -57,7 +57,8 @@ function Bill() {
         });
     });
     Axios.put(updateorderUrl, { orderId: orderId });
-    navigate("/vieworder");
+    // navigate("/vieworder");
+    alert("Order invoice Ready please visit View Order page!!!");
   };
 
   function handleGetItem() {
