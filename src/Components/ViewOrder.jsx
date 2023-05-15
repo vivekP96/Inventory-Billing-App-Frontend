@@ -70,17 +70,17 @@ function ViewOrder() {
       {itemlist &&
         itemlist.length > 0 &&
         itemlist.map((item, i) => {
-          // console.log(item);
+          console.log(item);
           return (
             <Container key={`key${i}`} style={{ margin: "15px" }}>
               <Accordion defaultActiveKey="SVSWH-001">
                 <Accordion.Item eventKey={item.orderId}>
                   <Accordion.Header>
                     {item.orderId} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <h5>
+                    {/* <h5>
                       Total Bill:
-                      {item.filteredArr[0].totalPrice}
-                    </h5>
+                      {item.filteredArr.totalPrice}
+                    </h5> */}
                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                     &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                     &nbsp; &nbsp; &nbsp; &nbsp;
