@@ -58,6 +58,7 @@ function Bill() {
     });
     Axios.put(updateorderUrl, { orderId: orderId });
     // navigate("/vieworder");
+    setTotalAmount("");
     alert("Order invoice Ready please visit View Order page!!!");
   };
 
