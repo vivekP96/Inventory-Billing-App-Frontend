@@ -40,7 +40,7 @@ function Bill() {
 
   const handleSubmit = () => {
     global.forEach(async (order) => {
-      // console.log(order);
+      console.log(order);
       await Axios.post(createorderUrl, {
         orderId: orderId,
         itemName: order.itemName,
@@ -89,7 +89,7 @@ function Bill() {
     obj.totalAmount = totalAmount;
 
     global.push(obj);
-    // console.log(global);
+    console.log(global);
 
     let total = 0;
     global.forEach((item) => {

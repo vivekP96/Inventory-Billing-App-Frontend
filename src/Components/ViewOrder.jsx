@@ -35,9 +35,11 @@ function ViewOrder() {
       });
   }
   function renderItemList(item) {
+    // console.log(item);
     const resArr = [];
     if (item) {
       const tempArr = item.filteredArr;
+      // console.log(tempArr);
       if (tempArr && tempArr.length > 0) {
         tempArr.map((rec, i) => {
           resArr.push(
