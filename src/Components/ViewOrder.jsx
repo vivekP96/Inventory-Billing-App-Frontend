@@ -79,10 +79,10 @@ function ViewOrder() {
                 <Accordion.Item eventKey={item.orderId}>
                   <Accordion.Header>
                     {item.orderId} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    {/* <h5>
+                    <h5>
                       Total Bill:
-                      {item.filteredArr.totalPrice}
-                    </h5> */}
+                      {item.filteredArr[0].totalPrice}
+                    </h5>
                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                     &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                     &nbsp; &nbsp; &nbsp; &nbsp;
