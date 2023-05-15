@@ -64,7 +64,7 @@ function ViewOrder() {
     return resArr;
   }
   return (
-    <div>
+    <div style={{ backgroundColor: "#d6eef8" }}>
       <div className="title">SVS WEAR HOUSE -PVT LIMITED</div>
       <h3 className="addbutton" style={{ textDecoration: "underline" }}>
         ORDER DETAILS

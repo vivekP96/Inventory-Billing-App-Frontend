@@ -7,12 +7,11 @@ function LoginPage() {
   const [password, setPassword] = useState("");
   const [err, setErr] = useState("");
   const handleSubmit = async (e) => {
-    console.log("Handle Submit!!!!!");
     e.preventDefault();
     try {
       const url =
         "https://inventory-billing-application.onrender.com/api/login";
-      console.log("Handle Submit!!!!! - 2");
+
       const res = await axios.post(url, {
         userEmail: email,
         password: password,
