@@ -72,7 +72,7 @@ function ViewOrder() {
       {itemlist &&
         itemlist.length > 0 &&
         itemlist.map((item, i) => {
-          console.log(item);
+          // console.log(item);
           return (
             <Container key={`key${i}`} style={{ margin: "15px" }}>
               <Accordion defaultActiveKey="SVSWH-001">
